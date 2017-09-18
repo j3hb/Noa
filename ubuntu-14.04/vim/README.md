@@ -4,9 +4,7 @@ v1.0
 Check out project to worksapce
 ```
 cd ~
-mkdir Workspace
-cd Workspace
-git clone https://github.com/chienhaolu1107/VimTools.git
+git clone https://github.com/chienhaolu1107/Noa.git
 ```
 
 ### Ctags
@@ -21,7 +19,7 @@ Using `Ctrl-]` and `Ctrl-o` to look up function definition
 ### Cscope
 Install cscope command
 ```
-cd ~/Workspace/VimTools
+cd ~/Noa/ubuntu-14.04/vim/packages/cscope-15.8b
 ./configure
 make
 make install
@@ -37,35 +35,33 @@ cscope -Rbq
 ```  
 
 ### Plugin
-Create plugin folder
+Go to vim folder
 ```
-cd ~/.vim
-mkdir plugin
+cd ~/Noa/ubuntu-14.04/vim
 ```
-Put plugin file to the folder   
+Copy plugin folder to .vim folder   
 ```
-cd ~/.vim/plugin   
-cp ~/Workspace/VimTools/plugin/* . 
+cp -r plugin ~/.vim 
 ```
 
 ### Color Scheme
-Create colors folder
+Go to vim folder
 ```
-cd ~/.vim
-mkdir colors
+cd ~/Noa/ubuntu-14.04/vim
 ```
-Put color scheme file to the folder
+Copy colors folder to .vim folder
 ```
-cd ~/.vim/colors
-cp ~/Workspace/VimTools/colors/* . 
+cp -r colors ~/.vim               
 ```
+
 
 ### .vimrc
 Move .vimrc file to the home folder
 ```
-cd VimTools/rc
+cd ~/Noa/ubuntu-14.04/vim/rc
 mv .vimrc ~/
 ```
 
 ### Changlog
 * 2016-10-21 File created (v1.0)
+* 2017-09-18 File path changed (v1.1)
