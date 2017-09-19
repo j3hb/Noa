@@ -42,6 +42,7 @@ cd ~/Noa/ubuntu-14.04/vim
 Copy plugin folder to .vim folder   
 ```
 cp -r plugin ~/.vim 
+cp -r bundle ~/.vim
 ```
 
 ### Color Scheme

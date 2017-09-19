@@ -95,36 +95,8 @@ cd <source code folder>
 cscope -Rbq
 ```  
 
-### Plugin
-Create plugin folder
-```
-cd ~/.vim
-mkdir plugin
-```
-Put plugin file to the folder   
-```
-cd ~/.vim/plugin   
-cp ~/Workspace/Noa/ubuntu-14.04/vim/plugin/* . 
-```
-
-### Color Scheme
-Create colors folder
-```
-cd ~/.vim
-mkdir colors
-```
-Put color scheme file to the folder
-```
-cd ~/.vim/colors
-cp ~/Workspace/Noa/ubuntu-14.04/vim/colors/* . 
-```
-
-### .vimrc
-Move .vimrc file to the home folder
-```
-cd ~/Worksapce/Noa/ubuntu-14.04/vim/rc
-mv .vimrc ~/
-```
+### Plugins, color scheme, .vimrc
+Please refer README.md in vim folder.
 
 ## TFTP Setting
 Create the TFTP folder
