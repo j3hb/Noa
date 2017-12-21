@@ -36,7 +36,7 @@ git config --global user.name "Jason Lu"
 git config --global user.email chienhaolu1107@gmail.com
 git config --global core.editor vim
 git config --global merge.tool vimdiff
-git config --global alias.history "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+git config --global alias.xlog "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 ```
 Check config list
 ```
