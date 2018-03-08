@@ -42,19 +42,22 @@ endif
 " 5. trailing whitespace (trailing-whitespace.vim) -> display trailing whitespace as red color
 " 6. ctrlp (ctrlp.vim) -> quick search to open file by typing Ctrl+P
 
-
 " Plugin ctrlp setting
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_cmd = 'CtrlPMixed'
 
-" Plugin trinity setting
+" Plugin hot key binding
 
-" Key-binding of open and close all plugins (NERD, srcexpl, taglist)
-nmap <C-a> :TrinityToggleAll<CR>
-" Key-binding of open and close srcexpl.vim
+" 1. Open and close all trinity plugins (NERD, srcexpl, taglist)
+nmap <C-a> :TrinityToggleAll           <CR>
+" 2. Open and close srcexpl.vim
 nmap <C-e> :TrinityToggleSourceExplorer<CR>
-" Key binding of open and close the taglist.vim
-nmap <C-t> :TrinityToggleTagList<CR>
-" Key binding of open and close the NERD_tree.vim
-nmap <C-n> :TrinityToggleNERDTree<CR>
+" 3. Open and close the taglist.vim
+nmap <C-t> :TrinityToggleTagList       <CR>
+" 4. Open and close the NERD_tree.vim
+nmap <C-n> :TrinityToggleNERDTree      <CR>
+" 5. Move to previous tab in vim
+nmap <F3>  :tabN                       <CR>
+" 6. Move to next tab in vim
+nmap <F4>  :tabn                       <CR>
 "-------------------------------------------------------------------------------------------------------------------
