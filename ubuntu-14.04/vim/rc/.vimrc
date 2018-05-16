@@ -1,5 +1,6 @@
 " Tab with 4 space width
 set tabstop=4
+set shiftwidth=4
 set expandtab
 
 " Support 256 colors in vim
@@ -35,16 +36,23 @@ endif
 
 
 " Current plugin list-----------------------------------------------------------------------------------------------
-" 1. NERD_tree (NERD_tree.vim) -> file list management
-" 2. Source explorer (srcexpl.vim) -> Quick explore variable definition
-" 3. taglist (taglist.vim)
-" 4. Trinity (trinity.vim) -> Integrate 3 plugin above, let vim like source insight
-" 5. trailing whitespace (trailing-whitespace.vim) -> display trailing whitespace as red color
-" 6. ctrlp (ctrlp.vim) -> quick search to open file by typing Ctrl+P
+" 1. NERD_tree.vim           -> file list management
+" 2. srcexpl.vim             -> Quick explore variable definition
+" 3. taglist.vim
+" 4. trinity.vim             -> Integrate 3 plugin above, let vim like source insight
+" 5. trailing-whitespace.vim -> display trailing whitespace as red color
+" 6. ctrlp.vim               -> quick search to open file by typing Ctrl+P
+" 7. indentLine.vim          -> displaying thin vertical lines at each indentation
 
 " Plugin ctrlp setting
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_cmd = 'CtrlPMixed'
+
+" Plugin indentline setting
+let g:indent_guides_enable_on_vim_startup = 1
+let g:indentLine_color_term = 239
+let g:indentLine_bgcolor_term = 55
+let g:indentLine_char = '|' " | ¦ ┆ │
 
 " Plugin hot key binding
 
