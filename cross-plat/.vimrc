@@ -36,6 +36,8 @@ filetype plugin indent on
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set cursorline
+set colorcolumn=81                              " Over 80 characters prompt
 set t_Co=256                                    " Support 256 colors in vim
 set number                                      " view line number in default
 set autochdir                                   " Auto loading ctags
