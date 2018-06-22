@@ -38,6 +38,8 @@ set shiftwidth=4
 set expandtab
 set cursorline
 set colorcolumn=81                              " Over 80 characters prompt
+set incsearch                                   " incremental search
+set hls                                         " highlight all found items
 set t_Co=256                                    " Support 256 colors in vim
 set number                                      " view line number in default
 set autochdir                                   " Auto loading ctags
