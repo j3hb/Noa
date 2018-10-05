@@ -1,3 +1,8 @@
+" Before copy this rc file to ENV, following packages need to be installed.
+"
+" 1. ctags
+" 2. cscope
+
 set nocompatible
 filetype off                     " required
 set rtp+=~/.vim/bundle/vundle/   " set the runtime path to include Vundle and initialize
