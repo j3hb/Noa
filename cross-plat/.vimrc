@@ -14,6 +14,8 @@ Plugin 'vim-scripts/taglist.vim'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'Yggdroot/indentLine'
 Plugin 'kien/ctrlp.vim'
+Plugin 'steffanc/cscopemaps.vim'
+Plugin 'vim-scripts/autoload_cscope.vim'
 
 " Color schemes
 Plugin 'Lokaltog/vim-distinguished'
@@ -66,6 +68,6 @@ let g:indentLine_color_term = 239               " indent line color
 " Press <c-t> to open selected entry
 
 " Hotkey binding
-nmap <F3>  :tabN        <CR>
-nmap <F4>  :tabn        <CR>
-nmap <C-t> :TlistToggle <CR>
+nmap <F3>  :tabN          <CR>
+nmap <F4>  :tabn          <CR>
+nmap <C-t> :TlistToggle   <CR>
