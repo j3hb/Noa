@@ -19,7 +19,6 @@ Plugin 'vim-scripts/taglist.vim'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'Yggdroot/indentLine'
 Plugin 'kien/ctrlp.vim'
-Plugin 'steffanc/cscopemaps.vim'
 Plugin 'vim-scripts/autoload_cscope.vim'
 
 " Color schemes
