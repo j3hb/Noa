@@ -1,7 +1,11 @@
 " Before copy this rc file to ENV, following packages need to be installed.
-"
-" 1. ctags
-" 2. cscope
+
+" > sudo apt-get install ctags cscope -y
+
+" Before develop, check ctags file and cscope.out
+
+" > ctags -R *
+" > cscope -Rbq
 
 set nocompatible
 filetype off                     " required
@@ -14,12 +18,13 @@ Plugin 'gmarik/vundle'
 " Plugins
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'tpope/vim-fugitive'
 Plugin 'vim-scripts/taglist.vim'
+Plugin 'vim-scripts/autoload_cscope.vim'
+Plugin 'chazy/cscope_maps'
+Plugin 'tpope/vim-fugitive'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'Yggdroot/indentLine'
 Plugin 'kien/ctrlp.vim'
-Plugin 'vim-scripts/autoload_cscope.vim'
 
 " Color schemes
 Plugin 'Lokaltog/vim-distinguished'
@@ -71,7 +76,7 @@ let g:indentLine_color_term = 239               " indent line color
 " ctrlp usage
 " Press <c-t> to open selected entry
 
-" Hotkey binding
+" vim tab hotkey binding
 nmap <F3>  :tabN          <CR>
 nmap <F4>  :tabn          <CR>
-nmap <C-t> :TlistToggle   <CR>
+nmap <C-l> :TlistToggle   <CR>
