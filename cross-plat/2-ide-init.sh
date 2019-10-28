@@ -1,5 +1,8 @@
 #!/bin/bash
-cp .vimrc ~
+
+# move vim and tmux config file to home folder
+cp .vimrc .tmux.conf ~
+
 mkdir -p ~/workspace
 cd ~/workspace
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
