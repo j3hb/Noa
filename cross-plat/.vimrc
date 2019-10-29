@@ -77,6 +77,6 @@ let g:indentLine_color_term = 239               " indent line color
 " Press <c-t> to open selected entry
 
 " vim tab hotkey binding
-nmap <C-m>  :tabN          <CR>
-nmap <C-n>  :tabn          <CR>
+nmap <C-n>  :tabN          <CR>
+nmap <C-m>  :tabn          <CR>
 nmap <C-l>  :TlistToggle   <CR>
