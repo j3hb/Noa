@@ -3,8 +3,8 @@
 # move vim and tmux config file to home folder
 cp .vimrc .tmux.conf ~
 
-mkdir -p ~/workspace
-cd ~/workspace
+mkdir -p ~/ws
+cd ~/ws
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 git clone https://github.com/powerline/fonts.git
 cd fonts
