@@ -25,6 +25,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'Yggdroot/indentLine'
 Plugin 'kien/ctrlp.vim'
+Plugin 'will133/vim-dirdiff'
 
 " Color schemes
 Plugin 'Lokaltog/vim-distinguished'
